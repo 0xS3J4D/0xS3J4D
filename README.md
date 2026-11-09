@@ -1,4 +1,4 @@
-<h1 align="center">0xS3J4D</h1>
+<p align="center"><img src="assets/banner.svg" alt="0xS3J4D — security portfolio" width="100%"></p>
 
 <p align="center"><b>Cybersecurity student · threat intelligence · digital forensics · detection engineering</b><br>
 I take real attacks apart and build tools for the people who defend against them.</p>
@@ -17,6 +17,15 @@ I'm a cybersecurity student in Norway. Most of my work is on threats against Nor
 I write up everything I analyse in both English and Norwegian. I redact sensitive data and map my findings to MITRE ATT&CK.
 
 *🇳🇴 Cybersikkerhetsstudent med fokus på trusseletterretning, digital etterforskning og deteksjon, særlig trusler mot norske brukere.*
+
+## Highlights
+
+| | |
+|---|---|
+| 🔎 **Real-world catch** | Spotted a BankID lookalike domain (`bankld`) in my own SMS and reverse-engineered the phishing kit behind it |
+| 🛡️ **Detection** | 3 YARA rules with a test suite that runs in CI · 13 MITRE ATT&CK techniques mapped |
+| 🧪 **Tooling** | Built an open source forensics workbench with a hash-chained chain of custody |
+| 🌍 **Communication** | Reports published in English and Norwegian |
 
 ## Projects
 
@@ -42,6 +51,10 @@ An open source digital forensics workbench. It puts phones, disks, memory and lo
 - **Ethics first.** I only analyse what I'm authorised to analyse, I never touch live criminal infrastructure, and I redact sensitive data before publishing.
 - **Reproducible.** Every project has source files, a build script and a changelog.
 - **Two languages.** Reports are written in English and Norwegian.
+
+## Repository standards
+
+Every project here follows the same layout: a clear README with a summary up front, reproducible builds, tests where it makes sense, a changelog, a license, and an ethics and scope section.
 
 ## Contact
 
